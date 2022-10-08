@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors Tutorial</title>
+  </head>
+  <style>
+    img{
+        height: 80px;
+        width: 80px;
+    }
+    body{
+        background-color:lightblue;
+        color:black;
+    }
+    #rock{
+        border:2px solid black;background-color:aqua;
+        color:black;
+        padding:7px;
+        font-size:20px;
+        width:100px;
+        border-radius:20px;
+    }
+    #paper{
+        border:2px solid black;background-color:aqua;
+        color:black;
+        padding:7px;
+        font-size:20px;
+        width:100px;
+        border-radius:20px;
+    }
+    #scissors{
+        border:2px solid black;background-color:aqua;
+        color:black;
+        padding:7px;
+        font-size:20px;
+        width:100px;
+        border-radius:20px;
+    }
+    @media screen and (max-width: 980px){
+        #computer-choice{
+            font-size:50px;
+        }
+        .com_choice{
+            font-size:40px;
+        }
+        .header{
+            font-size:40px;
+            text-align: center;
+            text-decoration:overline;
+            background-color:darkturquoise;
+            font-weight: normal;
+            font-family:cursive
+        }
+        img{
+            width: 450px;
+            height:370px;
+        }
+        #rock{
+            border:2px solid black;background-color:aqua;
+            color:black;
+            padding:20px;
+            font-size:70px;
+            width:300px;
+            border-radius:70px;
+        }
+        #paper{
+            border:2px solid black;background-color:aqua;
+            color:black;
+            padding:20px;
+            font-size:70px;
+            width:300px;
+            border-radius:70px;
+        }
+        #scissors{
+            border:2px solid black;background-color:aqua;
+            color:black;
+            padding:20px;
+            font-size:70px;
+            width:300px;
+            border-radius:70px;
+        }
+    }
+  </style>
+  <body>
+    <div class="header">
+    <h1>Welome to kk games</h1></div>
+
+    <div class="com_choice">
+    <h2>Computer Choice: <span id="computer-choice"></span></h2>
+    <h2>Your Choice: <span id="user-choice"></span></h2>
+    <h2>Result: <span id="result"></span></h2>
+</div>
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyaER4CmUj_CfZlA9DxvvwfPhjVgWp09pVSg&usqp=CAU">
+    <div class="but1">
+    <button id="rock">rock</button></div>
+    <br><br>
+    <img src="https://www.pinclipart.com/picdir/middle/51-511523_rock-paper-scissors-clipart.png">
+<br>
+    <button id="paper">paper</button>
+
+    <br><br><br>
+    <img src="https://www.kindpng.com/picc/m/502-5025794_rock-paper-scissors-clipart-hd-png-download.png">
+    <br>
+    <button id="scissors">scissors</button>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
